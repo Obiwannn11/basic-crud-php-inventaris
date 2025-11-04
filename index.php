@@ -1,6 +1,9 @@
 <?php
-include 'includes/header.php'; // UK 3
-include 'includes/koneksi.php'; // UK 5
+include 'includes/cek_session.php'; 
+
+// Jika lolos dari cek_session.php, sisa kode akan dijalankan
+include 'includes/header.php';
+include 'includes/koneksi.php';
 ?>
 
 <h1 class="mb-3">Daftar Barang</h1>
