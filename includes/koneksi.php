@@ -3,7 +3,7 @@
 define('DB_HOST', 'localhost');
 define('DB_USER', 'root'); // Ganti dengan user DB kamu
 define('DB_PASS', '');     // Ganti dengan password DB kamu
-define('DB_NAME', 'belajar_php_db_inventaris'); // Ganti dengan nama DB kamu
+define('DB_NAME', 'belajar_php_db_inventaris_2'); // Ganti dengan nama DB kamu
 
 // Buat koneksi
 $koneksi = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
